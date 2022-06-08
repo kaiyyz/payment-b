@@ -13,7 +13,7 @@ export default async function handler(req, res) {
     // Also, check the amount and currency on the backend (Security measure)
     const payment_capture = 1;
     const amount = 100;
-    const currency = "CAD";
+    const currency = "INR";
     const options = {
       amount: (amount * 100).toString(),
       currency,
